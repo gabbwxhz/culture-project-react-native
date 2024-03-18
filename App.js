@@ -1,11 +1,13 @@
 import { StyleSheet, View } from 'react-native'
 
 import Title from './src/components/title/Title'
+import Main from './src/components/main/Main'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Title></Title>
+      <Title />
+      <Main />
     </View>
   )
 }
